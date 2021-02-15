@@ -1,10 +1,9 @@
-# InspireProject
+# Credential-checker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
-It is a site where people can input their motivational quotes from their best authors
+This project enables users to input their user's passwords and be able to save them for future refference.
 
 ## Description of the project
-This is basically 
+Users can input their username of different account holder and be able to save their credentials
 
 ## Author
 
@@ -12,11 +11,11 @@ Kizito ALbert
 
 ## Instructions
 
-Once posted, other users can downvote or upvote your quote.
+users can be able to save their credentials and also be able to copyand paste their passwords in clipboard
 
-A user can as well delete the quote they post or mark it as not useful
+## Technologies used
 
-
+Typescript
 
 ## License and copywrite
 
