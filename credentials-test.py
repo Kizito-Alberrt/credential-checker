@@ -28,11 +28,7 @@ class TestCredentials(unittest.TestCase):
         self.assertEqual(len(User.user_list),1)
  
 
-    @classmethod
-    def user_exist(cls,number):
-        for user in cls.user_list:
-            if user.login_username == username:
-                return True
+    
 
     
     def test_display_all_user(self):

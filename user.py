@@ -23,6 +23,14 @@ class User:
         self.login_password = login_password
    
    
-    @classmethod
-    def display_user(cls):
-        return cls.user_list
+    def test_copy_email(self):
+        '''
+        copy password from a found username
+        '''
+        self.new_user.save_user()
+        User.copy_password("1234567")
+
+        self.assertEqual(self.new_user.password,pyperclip.paste())
+
+
+   
